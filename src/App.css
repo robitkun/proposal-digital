@@ -1,0 +1,168 @@
+.container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  padding-top: 100px;
+}
+.section {
+  width: 595px;
+  height: 842px;
+  border: 1px solid black;
+  padding: 72px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+section h1 {
+  text-align: center;
+  line-height: 1.5;
+  font-size: 16px;
+}
+section .image {
+  width: 100%;
+  display: grid;
+  place-content: center;
+}
+section h2 {
+  text-align: center;
+  line-height: 1.5;
+  font-size: 14px;
+}
+.section-kop {
+  position: relative;
+  width: 595px;
+  height: 842px;
+  border: 1px solid black;
+  padding-top: 10px;
+  padding-left: 72px;
+  padding-right: 72px;
+  padding-bottom: 72px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+.section-kop img.bg,
+.section-lanjutan img.bg,
+.section-lampiran img.bg {
+  position: absolute;
+  z-index: -1;
+  left: 18%;
+  top: 25%;
+  opacity: 0.3;
+}
+.kop {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  margin-bottom: 16px;
+}
+.kop .title {
+  font-size: 12px;
+  font-weight: 700;
+  text-align: center;
+}
+.kop .address {
+  font-size: 9px;
+  font-weight: 100;
+  text-align: center;
+}
+.kop::after {
+  content: '';
+  position: absolute;
+  bottom: -3px;
+  width: 100%;
+  height: 1px;
+  background-color: black;
+}
+.kop::before {
+  content: '';
+  position: absolute;
+  bottom: -7px;
+  width: 100%;
+  height: 3px;
+  background-color: black;
+}
+.section-kop h1.judul,
+.section-kop h1,
+.section-lampiran h1 {
+  text-align: center;
+  font-size: 12px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+.section-kop h2.subjudul {
+  text-align: start;
+  margin-bottom: 10px;
+  font-size: 12px;
+}
+
+.section-kop p.text,
+.section-lanjutan p {
+  text-indent: 30px;
+  line-height: 1.5;
+  font-size: 12px;
+  font-weight: 400;
+  text-align: justify;
+  margin-bottom: 20px;
+}
+.section-kop ol li,
+.section-lanjutan ol li {
+  font-size: 12px;
+  margin-left: 7px;
+  line-height: 1.5;
+  text-align: justify;
+}
+.section-kop ol {
+  margin-bottom: 10px;
+}
+.section-lanjutan,
+.section-lampiran {
+  position: relative;
+  width: 595px;
+  height: 842px;
+  border: 1px solid black;
+  padding: 72px;
+}
+.section-lanjutan p.yws {
+  text-indent: 0;
+  margin-bottom: 0;
+}
+.section-lanjutan h2 {
+  text-align: start;
+  font-size: 12px;
+}
+.section-lanjutan ol li {
+  margin-left: 24px;
+}
+.section-lanjutan ol {
+  margin-bottom: 5px;
+}
+.section-kop p {
+  line-height: 1.5;
+  font-size: 12px;
+  font-weight: 400;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+th,
+td {
+  border: 1px solid black;
+  padding: 10px;
+  font-size: 9px;
+  font-weight: 700;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+i {
+  font-size: 12px;
+}
