@@ -8,7 +8,7 @@ const SectionSatu = () => {
         CILACAP
       </h1>
       <div className="image">
-        <img src="../assets/fest2025.png" alt="fest2025" width={390} />
+        <img src="/fest2025.png" alt="fest2025" width={390} />
       </div>
       <h2>
         Diselenggarakan Oleh :<br /> ORGANISASI FAKULTAS MATEMATIKA DAN ILMU
