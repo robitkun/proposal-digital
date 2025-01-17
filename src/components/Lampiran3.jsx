@@ -4,7 +4,7 @@ import Kop from './Kop';
 const Lampiran3 = () => {
   return (
     <section className="section-kop">
-      <img src="/public/fest2025.png" alt="" width={390} className="bg" />
+      <img src="/src/assets/fest2025.png" alt="" width={390} className="bg" />
       <Kop />
     </section>
   );

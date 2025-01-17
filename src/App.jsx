@@ -12,7 +12,7 @@ import Lampiran3 from './components/Lampiran3';
 const App = () => {
   return (
     <div className="container">
-      <h1>PROPOSAL GATEL</h1>
+      <h1>YOSSAN GANTENG </h1>
       <SectionSatu />
       <SectionPendahuluan />
       <Section />

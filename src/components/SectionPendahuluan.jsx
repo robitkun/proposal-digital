@@ -4,7 +4,7 @@ const SectionPendahuluan = () => {
   return (
     <section className="section-kop">
       <img
-        src="/public/fest2025.png"
+        src="/src/assets/fest2025.png"
         alt="fest 2025"
         className="bg"
         width={390}

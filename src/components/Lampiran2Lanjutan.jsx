@@ -3,7 +3,7 @@ import Kop from './Kop';
 const Lampiran2Lanjutan = () => {
   return (
     <section className="section-kop">
-      <img src="/public/fest2025.png" alt="" width={390} className="bg" />
+      <img src="/src/assets/fest2025.png" alt="" width={390} className="bg" />
       <Kop />
       <img
         src="/src/assets/dokumentasi.png"

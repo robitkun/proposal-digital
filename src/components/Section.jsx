@@ -4,7 +4,12 @@ const Section = () => {
   return (
     <section className="section-kop">
       <Kop />
-      <img src="/public/fest2025.png" alt="" className="bg" width={390} />
+      <img
+        src="/src/assets/fest2025.png"
+        alt="wkwk"
+        className="bg"
+        width={390}
+      />
       <p style={{ textAlign: 'justify', fontSize: '12px' }}>
         terciptanya sinergi antara teknologi. Ajang ini tidak hanya menjadi
         wadah pengembangan kreativitas dan inovasi, tetapi juga langkah nyata
