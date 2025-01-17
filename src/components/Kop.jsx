@@ -2,7 +2,7 @@ const Kop = () => {
   return (
     <div className="kop">
       <div>
-        <img src="/fest2025.png" alt="Unughawir" width={60} />
+        <img src="/unugha.png" alt="Unughawir" width={60} />
       </div>
       <div>
         <p className="title">

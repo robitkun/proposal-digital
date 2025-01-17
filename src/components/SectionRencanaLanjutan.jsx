@@ -17,7 +17,7 @@ const SectionRencanaLanjutan = () => {
       organisasi: 'HIMAFORTIC UNUGHA',
       alamat: 'Jl. Kemerdekaan Barat No.17, Kesugihan, Cilacap',
       email: 'himafortic@unugha.id',
-      logo: '//himafortic.png', // Ganti dengan path logo Anda
+      logo: '/himafortic.png', // Ganti dengan path logo Anda
     },
     {
       no: 3,
