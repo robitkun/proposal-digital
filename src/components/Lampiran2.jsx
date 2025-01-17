@@ -1,25 +1,6 @@
 import Kop from './Kop';
 
 const Lampiran2 = () => {
-  const steeringCommittee = {
-    title: 'Steering Committee',
-    members: [
-      {
-        role: 'Pelindung dan Penasehat',
-        names: ['Dr. A. Lutfi Hamidi, M.Ag.', 'MTA. Aziz Zein, S.Si., M.Kom.'],
-      },
-      { role: 'Pembina', names: ['Safiq Rosad, M.Kom.'] },
-      {
-        role: 'Penanggung Jawab',
-        names: [
-          'Rheika Mosa Larasati',
-          'Imam Wahyu Tri Sujianto',
-          'Fandi Apriyanto Dimu',
-          'Ainur Rofikoh',
-        ],
-      },
-    ],
-  };
   return (
     <section className="section-kop lampiran2">
       <img src="/public/fest2025.png" alt="" width={390} className="bg" />

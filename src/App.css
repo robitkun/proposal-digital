@@ -5,6 +5,10 @@
   flex-direction: column;
   gap: 20px;
   padding-top: 100px;
+  overflow: auto;
+}
+section {
+  overflow: auto;
 }
 .section {
   width: 595px;
@@ -165,4 +169,98 @@ th {
 
 i {
   font-size: 12px;
+}
+
+/* Tambahkan ini ke CSS */
+@media (max-width: 768px) {
+  .container {
+    padding-top: 50px;
+    gap: 15px;
+  }
+
+  .section,
+  .section-kop,
+  .section-lanjutan,
+  .section-lampiran {
+    width: 90%;
+    height: auto;
+    padding: 20px;
+  }
+
+  section h1,
+  section h2 {
+    font-size: 14px;
+  }
+
+  .kop .title {
+    font-size: 10px;
+  }
+
+  .kop .address {
+    font-size: 8px;
+  }
+
+  .section-kop p.text,
+  .section-lanjutan p,
+  .section-kop ol li {
+    font-size: 10px;
+  }
+
+  .section-kop img.bg,
+  .section-lanjutan img.bg,
+  .section-lampiran img.bg {
+    width: 60%;
+    top: 20%;
+    left: 20%;
+  }
+
+  table {
+    font-size: 8px;
+  }
+
+  table th,
+  table td {
+    padding: 5px;
+  }
+
+  table img {
+    width: 30px;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    padding-top: 30px;
+    gap: 10px;
+  }
+
+  .section,
+  .section-kop,
+  .section-lanjutan,
+  .section-lampiran {
+    padding: 10px;
+  }
+
+  .kop .title {
+    font-size: 9px;
+  }
+
+  .kop .address {
+    font-size: 7px;
+  }
+
+  .section-kop p.text,
+  .section-lanjutan p,
+  .section-kop ol li {
+    font-size: 8px;
+  }
+
+  table {
+    font-size: 7px;
+  }
+
+  table th,
+  table td {
+    padding: 3px;
+  }
 }

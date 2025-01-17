@@ -5,14 +5,14 @@ const Section = () => {
     <section className="section-kop">
       <Kop />
       <img src="/public/fest2025.png" alt="" className="bg" width={390} />
-      <p>
+      <p style={{ textAlign: 'justify', fontSize: '12px' }}>
         terciptanya sinergi antara teknologi. Ajang ini tidak hanya menjadi
         wadah pengembangan kreativitas dan inovasi, tetapi juga langkah nyata
         untuk mendukung kemajuan mahasiswa, pelajar dan masyarakat di era
         digital. FMIKOM FEST 2025 adalah inspirasi baru untuk masa depan yang
         lebih kreatif, kolaboratif, dan inovatif.
       </p>
-      <h2>B. Lanjutan</h2>
+      <h2 style={{ textAlign: 'start' }}>B. Lanjutan</h2>
       <p style={{ marginLeft: 15 }} className="yws">
         Tujuan Event Akbar ini diselenggarakan adalah antara lain:{' '}
       </p>
@@ -39,7 +39,7 @@ const Section = () => {
           melalui turnamen Mobile Legends.
         </li>
       </ol>
-      <h2>C. Hasil Yang Diharapkan</h2>
+      <h2 style={{ textAlign: 'center' }}>C. Hasil Yang Diharapkan</h2>
       <ol className="c">
         <li>
           Meningkatkan minat dan partisipasi dalam kompetisi berbasis teknologi

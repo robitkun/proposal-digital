@@ -1,4 +1,3 @@
-import React from 'react';
 import Kop from './Kop';
 
 const Lampiran1 = () => {
