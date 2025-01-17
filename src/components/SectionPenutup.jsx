@@ -3,12 +3,7 @@ import Kop from './Kop';
 const SectionPenutup = () => {
   return (
     <section className="section-kop">
-      <img
-        src="/src/assets/fest2025.png"
-        alt="Yuhu"
-        width={390}
-        className="bg"
-      />
+      <img src="/fest2025.png" alt="Yuhu" width={390} className="bg" />
       <Kop />
       <h1>
         BAB III <br /> PENUTUP

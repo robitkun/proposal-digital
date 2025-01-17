@@ -9,7 +9,7 @@ const SectionRencanaLanjutan = () => {
       organisasi: 'BEM FMIKOM',
       alamat: 'Jl. Kemerdekaan Barat No.17, Kesugihan, Cilacap',
       email: 'bemfmikom@unugha.id',
-      logo: '/src/assets/bem.png', // Ganti dengan path logo Anda
+      logo: '/bem.png', // Ganti dengan path logo Anda
     },
     {
       no: 2,
@@ -17,7 +17,7 @@ const SectionRencanaLanjutan = () => {
       organisasi: 'HIMAFORTIC UNUGHA',
       alamat: 'Jl. Kemerdekaan Barat No.17, Kesugihan, Cilacap',
       email: 'himafortic@unugha.id',
-      logo: '/src/assets/himafortic.png', // Ganti dengan path logo Anda
+      logo: '//himafortic.png', // Ganti dengan path logo Anda
     },
     {
       no: 3,
@@ -25,7 +25,7 @@ const SectionRencanaLanjutan = () => {
       organisasi: 'HMPS-SI UNUGHA',
       alamat: 'Jl. Kemerdekaan Barat No.17, Kesugihan, Cilacap',
       email: 'hmpssi24@gmail.com',
-      logo: '/src/assets/si.png', // Ganti dengan path logo Anda
+      logo: '/si.png', // Ganti dengan path logo Anda
     },
     {
       no: 4,
@@ -33,18 +33,13 @@ const SectionRencanaLanjutan = () => {
       organisasi: 'HIMATIKA UNUGHA',
       alamat: 'Jl. Kemerdekaan Barat No.17, Kesugihan, Cilacap',
       email: 'himatikaunugha2324@gmail.com',
-      logo: '/src/assets/mtk.png',
+      logo: '/mtk.png',
     },
   ];
   return (
     <section className="section-kop" style={{ position: 'relative' }}>
       <Kop />
-      <img
-        src="/public/fest2025.png"
-        alt="fest2025"
-        className="bg"
-        width={390}
-      />
+      <img src="/fest2025.png" alt="fest2025" className="bg" width={390} />
       <h2 style={{ textAlign: 'start', fontSize: '12px', marginBottom: 10 }}>
         G. Daftar Organisasi Yang Tergabung FMIKOM FEST 2025
       </h2>

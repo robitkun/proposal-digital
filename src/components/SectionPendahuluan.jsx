@@ -3,12 +3,7 @@ import Kop from './Kop';
 const SectionPendahuluan = () => {
   return (
     <section className="section-kop">
-      <img
-        src="/src/assets/fest2025.png"
-        alt="fest 2025"
-        className="bg"
-        width={390}
-      />
+      <img src="/fest2025.png" alt="fest 2025" className="bg" width={390} />
       <Kop />
       <div>
         <h1 className="judul">

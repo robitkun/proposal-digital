@@ -54,12 +54,7 @@ const Lampiran1 = () => {
   return (
     <section className="section-kop">
       <Kop />
-      <img
-        src="/src/assets/fest2025.png"
-        alt="fest2025"
-        className="bg"
-        width={390}
-      />
+      <img src="/fest2025.png" alt="fest2025" className="bg" width={390} />
       <i>Lampiran I</i>
       <h1 style={{ marginBottom: 10 }}>
         MANUAL ACARA FMIKOM FEST <br />
