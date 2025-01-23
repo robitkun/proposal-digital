@@ -9,11 +9,13 @@ import Lampiran1 from './components/Lampiran1';
 import Lampiran2 from './components/Lampiran2';
 import Lampiran2Lanjutan from './components/Lampiran2Lanjutan';
 import Lampiran3 from './components/Lampiran3';
+import Ttd from './components/Ttd';
 const App = () => {
   return (
     <div className="container">
-      <h1>YOSSAN GANTENG </h1>
+      <h1>FMIKOM FEST 2025 </h1>
       <SectionSatu />
+      <Ttd />
       <SectionPendahuluan />
       <Section />
       <SectionRencanaPelaksana />

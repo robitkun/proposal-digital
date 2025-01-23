@@ -5,7 +5,7 @@ const Section = () => {
     <section className="section-kop">
       <Kop />
       <img src="/fest2025.png" alt="wkwk" className="bg" width={390} />
-      <p style={{ textAlign: 'justify', fontSize: '12px' }}>
+      <p className="gatel" style={{ fontSize: 12 }}>
         terciptanya sinergi antara teknologi. Ajang ini tidak hanya menjadi
         wadah pengembangan kreativitas dan inovasi, tetapi juga langkah nyata
         untuk mendukung kemajuan mahasiswa, pelajar dan masyarakat di era
@@ -13,7 +13,7 @@ const Section = () => {
         lebih kreatif, kolaboratif, dan inovatif.
       </p>
       <h2 style={{ textAlign: 'start' }}>B. Lanjutan</h2>
-      <p style={{ marginLeft: 15 }} className="yws">
+      <p style={{ marginLeft: 15, fontSize: 12 }} className="yws">
         Tujuan Event Akbar ini diselenggarakan adalah antara lain:{' '}
       </p>
       <ol>
@@ -39,7 +39,7 @@ const Section = () => {
           melalui turnamen Mobile Legends.
         </li>
       </ol>
-      <h2 style={{ textAlign: 'center' }}>C. Hasil Yang Diharapkan</h2>
+      <h2 style={{ textAlign: 'start' }}>C. Hasil Yang Diharapkan</h2>
       <ol className="c">
         <li>
           Meningkatkan minat dan partisipasi dalam kompetisi berbasis teknologi

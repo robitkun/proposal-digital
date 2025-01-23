@@ -17,7 +17,7 @@ const SectionRencanaLanjutan = () => {
       organisasi: 'HIMAFORTIC UNUGHA',
       alamat: 'Jl. Kemerdekaan Barat No.17, Kesugihan, Cilacap',
       email: 'himafortic@unugha.id',
-      logo: '/himafortic.png', // Ganti dengan path logo Anda
+      logo: '/himafortic.png',
     },
     {
       no: 3,
@@ -25,7 +25,7 @@ const SectionRencanaLanjutan = () => {
       organisasi: 'HMPS-SI UNUGHA',
       alamat: 'Jl. Kemerdekaan Barat No.17, Kesugihan, Cilacap',
       email: 'hmpssi24@gmail.com',
-      logo: '/si.png', // Ganti dengan path logo Anda
+      logo: '/si.png',
     },
     {
       no: 4,

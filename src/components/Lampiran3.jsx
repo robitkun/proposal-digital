@@ -1,11 +1,13 @@
-import React from 'react';
 import Kop from './Kop';
+import BudgetTable from './Rab';
 
 const Lampiran3 = () => {
   return (
     <section className="section-kop">
       <img src="/fest2025.png" alt="" width={390} className="bg" />
       <Kop />
+      <i>Lampiran III</i>
+      <BudgetTable />
     </section>
   );
 };

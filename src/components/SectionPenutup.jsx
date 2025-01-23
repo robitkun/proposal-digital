@@ -18,6 +18,51 @@ const SectionPenutup = () => {
         semua pihak. Kami siap bekerja sama dengan semua pihak yang terkait
         untuk menyukseskan acara ini.
       </p>
+
+      <div
+        style={{
+          width: '100%',
+          height: 'auto',
+          display: 'flex',
+          justifyContent: 'end',
+        }}
+      >
+        <div
+          style={{
+            display: 'flex',
+            flexDirection: 'column',
+            justifyContent: 'center',
+            alignItems: 'center',
+          }}
+        >
+          <p
+            style={{
+              fontWeight: 700,
+              fontSize: 12,
+            }}
+          >
+            Ketua Panitia
+          </p>
+          <img src="/ttd-yoss.png" alt="" width={100} />
+          <p
+            style={{
+              fontWeight: 700,
+              textDecoration: 'underline',
+              fontSize: 12,
+            }}
+          >
+            Yossan Adi Santoso
+          </p>
+          <p
+            style={{
+              fontWeight: 700,
+              fontSize: 12,
+            }}
+          >
+            NIM. 22EO10025
+          </p>
+        </div>
+      </div>
     </section>
   );
 };

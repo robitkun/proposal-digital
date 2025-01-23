@@ -2,7 +2,8 @@ const SectionSatu = () => {
   return (
     <section className="section">
       <h1>
-        PROPOSAL KELILING <br />
+        PROPOSAL
+        <br />
         KEGIATAN FMIKOM FEST 2025
         <br /> UNIVERSITAS NAHDLATUL ULAMA AL GHAZALI <br />
         CILACAP

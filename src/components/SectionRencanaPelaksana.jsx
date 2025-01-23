@@ -15,16 +15,16 @@ const SectionRencanaPelaksana = () => {
       <p style={{ fontSize: '12px', marginLeft: 17 }}>
         Kegiatan Kompetisi akan dilaksanakan pada :
       </p>{' '}
-      <p style={{ marginLeft: 17 }}>
+      <p style={{ marginLeft: 17, fontSize: 12 }}>
         Pelaksanaan <span style={{ marginRight: 27 }}></span>: 21 – 22 Februari
         2025
       </p>
-      <p style={{ marginLeft: 17, marginBottom: 5 }}>
+      <p style={{ marginLeft: 17, marginBottom: 5, fontSize: 12 }}>
         Tempat <span style={{ marginRight: 51 }}></span> : Universitas Nahdlatul
         Ulama Al Ghazali Cilacap
       </p>
       <h2 style={{ textAlign: 'start', fontSize: '12px' }}>B. Peserta</h2>
-      <p style={{ marginLeft: 17, marginBottom: 5 }}>
+      <p style={{ marginLeft: 17, marginBottom: 5, fontSize: 12 }}>
         Sasaran peserta kegiatan FMIKOM FEST yaitu:
       </p>
       <ol style={{ marginLeft: 20 }}>
@@ -34,7 +34,7 @@ const SectionRencanaPelaksana = () => {
       <h2 style={{ textAlign: 'start', fontSize: '12px', marginBottom: 10 }}>
         C. Bentuk Kegiatan dan Metode
       </h2>
-      <p style={{ textIndent: 20, marginBottom: 10 }}>
+      <p style={{ textIndent: 20, marginBottom: 10, fontSize: 12 }}>
         Kegiatan ini akan diselengarakan dalam bentuk on-air dengan tema:
         “Transformasi Bersama Mengoptimalkan Teknologi Untuk Organisasi Yang
         Lebih Baik". Kegiatan ini meliputi perlombaan Robotik, Seminar
