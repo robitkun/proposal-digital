@@ -10,6 +10,12 @@
 section {
   overflow: auto;
 }
+.cp {
+  width: 100%;
+  padding: 40px;
+  text-align: center;
+  font-weight: 900;
+}
 .section {
   width: 595px;
   height: 842px;
@@ -54,7 +60,7 @@ section h2 {
   z-index: -1;
   left: 18%;
   top: 25%;
-  opacity: 0.3;
+  opacity: 0.2;
 }
 .kop {
   display: flex;
@@ -179,7 +185,6 @@ i {
   .section-lanjutan,
   .section-lampiran {
     width: 90%;
-    height: auto;
     padding: 20px;
   }
 
@@ -237,6 +242,7 @@ i {
   .section-lanjutan,
   .section-lampiran {
     padding: 10px;
+    height: 842px;
   }
 
   .kop .title {

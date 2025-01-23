@@ -10,6 +10,7 @@ import Lampiran2 from './components/Lampiran2';
 import Lampiran2Lanjutan from './components/Lampiran2Lanjutan';
 import Lampiran3 from './components/Lampiran3';
 import Ttd from './components/Ttd';
+import Cp from './components/Cp';
 const App = () => {
   return (
     <div className="container">
@@ -25,6 +26,7 @@ const App = () => {
       <Lampiran2 />
       <Lampiran2Lanjutan />
       <Lampiran3 />
+      <Cp />
     </div>
   );
 };
