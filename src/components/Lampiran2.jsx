@@ -5,7 +5,7 @@ const Lampiran2 = () => {
     <section className="section-kop lampiran2">
       <img src="/fest2025.png" alt="" width={390} className="bg" />
       <Kop />
-      <i>Lampiran II</i>
+      <i style={{ fontSize: 12 }}>Lampiran II</i>
       <h1 style={{ marginBottom: 10 }}>SUSUNAN PANITIA FMIKOM FEST 2025</h1>
       <div>
         <h2 style={{ fontSize: 12, textAlign: 'start' }}>A. SteeringComite</h2>

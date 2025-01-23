@@ -1,3 +1,4 @@
+import Cp from './Cp';
 import Kop from './Kop';
 import BudgetTable from './Rab';
 
@@ -8,6 +9,7 @@ const Lampiran3 = () => {
       <Kop />
       <i>Lampiran III</i>
       <BudgetTable />
+      <Cp />
     </section>
   );
 };

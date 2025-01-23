@@ -7,15 +7,28 @@
   padding-top: 100px;
   overflow: auto;
 }
-section {
-  overflow: auto;
-}
 .cp {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   width: 100%;
-  padding: 40px;
   text-align: center;
   font-weight: 900;
 }
+.cp .yew {
+  font-size: 12px;
+  text-align: left;
+  margin-bottom: 10px;
+}
+.paragraf {
+  font-size: 12px;
+  text-align: justify;
+}
+section {
+  overflow: auto;
+}
+
 .section {
   width: 595px;
   height: 842px;
@@ -113,7 +126,6 @@ section h2 {
 .section-lanjutan p {
   text-indent: 30px;
   line-height: 1.5;
-  font-size: 12px;
   font-weight: 400;
   text-align: justify;
   margin-bottom: 20px;
@@ -204,10 +216,10 @@ i {
   .section-kop p.text,
   .section-lanjutan p,
   ol li {
-    font-size: 10px;
+    font-size: 12px;
   }
   p {
-    font-size: 10px;
+    font-size: 12px;
   }
   .section-kop img.bg,
   .section-lanjutan img.bg,
@@ -256,7 +268,7 @@ i {
   .section-kop p.text,
   .section-lanjutan p,
   .section-kop ol li {
-    font-size: 8px;
+    font-size: 12px;
   }
 
   table {
